@@ -1,0 +1,85 @@
+Q1. What is an API? Give an example, where an API is used in real life.
+Ans:
+API (application programming interface) is a way for two or more computer programs, web application, or apps to communicate with each other.
+
+Ex. G Pay It is a google application, which is used to communicate betwee bank to Account holder. When account holder wants to send money his friend then go to GPay and put friend's account details and then send money by using it. And GPay go to bank server and check your account balance and then successful transection or deny this request.
+
+WhatsApp, PePhone, Google, .etc
+
+
+
+
+
+Q2. Give advantages and disadvantages of using API.
+
+
+Advantages	
+Interpretation of real objects
+Identification of complex patterns and complex situations
+Ability to include or ignore features intelli- gently	
+Multi-scale representation	
+Use of shape, context, neighbourhood relationships	
+
+Disadvantages
+Sujective
+Time consuming
+A fixed scale is necessary
+Inconsistency in the use of a steady scale to the whole image Human error
+Imprecise boundary delineation
+
+
+Q3. What is a Web API? Differentiate between API and Web API.
+Ans:
+
+Web API is an application programming interface for the Web.
+
+Web API is a subset of API
+It is specily designed for webpage
+
+
+                    APIs                                                        Web APIs
+Protocol	        P, FTP, or SMTP to communicate                              HTTP protocol
+Platform	        used for creating any type of application                   specifically for web-based applications
+Data formats	    support various data formats like as XML, JSON, or          support JSON or XML formats
+                    CSV
+Security	        variety of security mechanisms	                            standard web security protocols such as OAuth or API keys
+
+
+Web API is a type of API that is specifically designed for web-based applications and is accessed over the internet using the HTTP protocol
+
+
+Q4. Explain REST and SOAP Architecture. Mention shortcomings of SOAP.
+
+Ans:
+
+REST stands for REpresentational State Transfer and API stands for Application Program Interface. REST is a software architectural style that defines the set of rules to be used for creating web services.
+A Restful system consists of a:
+
+client who requests for the resources.
+server who has the resources.
+
+
+SOAP (formerly a backronym for Simple Object Access Protocol) is a messaging protocol specification for exchanging structured information in the implementation of web services
+SOAP messaging structure
+
+Envelope
+Header (optional)
+Body includes the request or response.
+Fault
+
+Shortcomings of SOAP
+
+Complexity in code and understanding
+Performance slower than other web service protocols
+Developers facing Tooling problems
+
+
+Q5. Differentiate between REST and SOAP.
+Ans:
+
+                   REST             SOAP
+Protocol	       HTTP             Messaging
+Performance	       Faster	        Slower
+Scalability	       Scalable         Defcault to scale
+Caching	           Available        Not available
+Statelessness	   Stateless	    Maintain state
